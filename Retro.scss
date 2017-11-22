@@ -1,6 +1,9 @@
 
 
 // Semantic color scheme
+@import url('https://fonts.googleapis.com/css?family=Cabin'); 
+@import url('https://fonts.googleapis.com/css?family=Source Sans Pro'); 
+@import url('https://fonts.googleapis.com/css?family=Lancelot'); 
 @import url('https://fonts.googleapis.com/css?family=Hammersmith One'); 
 $theme-colors: (
   primary: #EE634C,
@@ -36,8 +39,10 @@ $link-color: #EE634C;
 
 
 
-$font-family-base: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-$headings-font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !default;
+$font-family-base: Cabin;
+
+$headings-font-family: Source Sans Pro;
+
 
 $font-size-base: 1rem; // Assumes the browser default, typically `16px`
 $font-size-h1: 2.5 * $font-size-base;
@@ -52,10 +57,13 @@ $display2-size: 5.5 * $font-size-base;
 $display3-size: 4.5 * $font-size-base;
 $display4-size: 3.5 * $font-size-base;
 
-$border-radius: .25rem;
+$border-radius: 0px;
+
 
 
 $display-font-family: Hammersmith One;
+$border-radius-lg: $border-radius * 1.2;
+$border-radius-sm: $border-radius * .8;
 @import 'bootstrap-4.0.0-beta.1';
 
 
